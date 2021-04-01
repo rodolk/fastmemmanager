@@ -25,6 +25,7 @@ all: mmoGTest
 
 mmoGTest:	$(OBJS)
 	$(CXX) $(LIBDIRS) -o $@ $^ $(LIBS)
+	mkdir -p ../build/default
 	mv $@ ../build/default
 
 %.o:	%.cpp $(HEADER_DIR)/memoryManager.h
