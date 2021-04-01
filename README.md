@@ -13,6 +13,8 @@ Unit tests use Google unit test gtest. If you want to run unit test you need to 
 
 At this moment you can see how the header can be used in the unit test source code. Later I'll add an example.
 
+This code includes .project files for Eclipse.
+
 You can use this source as you please for any project at your own risk.
 
 I try to create this code error-free but there is not guarantee.
