@@ -15,10 +15,19 @@ At this moment you can see how the header can be used in the unit test source co
 
 This code includes .project files for Eclipse.
 
+Next steps
+----------
+I need to add code to implement a leaky-bucket-like algorithm where after some time where incremented objects have not been used, then they are removed.
+This is to deal with cases where there are temporary spikes in usage and after that memory can be reclaimed.
+I'm thinking about not having increment limits while still being able to detect a memory leak case.
+
+
+Sharing
+-------
+
 You can use this source as you please for any project at your own risk.
 
 I try to create this code error-free but there is not guarantee.
 
-Thank you
 
 Rodolfo
